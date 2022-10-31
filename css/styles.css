@@ -34,7 +34,7 @@ body {
   text-decoration: inherit;
 }
 .logo-color {
-  color: var(--accent-color);
+  color:var(--accent-color);
 }
 
 
