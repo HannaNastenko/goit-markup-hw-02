@@ -34,12 +34,10 @@ body {
   text-decoration: inherit;
 }
 .logo-color {
-  color:var(--accent-color);
+  color: var(--accent-color);
 }
 
-
-.header-list-link,
-.contact-item {
+.header-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -48,12 +46,19 @@ body {
   text-decoration: inherit;
 }
 
+.contact-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: inherit;
+}
+
 .header-list .header-list-link:hover,
 .header-list .header-list-link:focus {
   color: var(--accent-color);
 }
-
-
 
 .contact-item:hover,
 .contact-item:focus {
@@ -76,20 +81,22 @@ body {
   color: var(--title-white-color);
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: var(--title-white-color);
   background-color: var(--accent-color);
 }
 
-/* __________________BENEFITS_________________ */
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
 
+/* __________________BENEFITS_________________ */
 
 .benefits-title {
   font-size: 14px;
@@ -170,8 +177,17 @@ body {
   text-decoration: none;
 }
 
+.address-list-link:hover,
+.address-list-link:focus {
+    color: var(--accent-color);
+}
+
+
 /* _____________________PORTFOLIO________________ */
 
+.btn-list {
+  font-family: "Roboto", sans-serif;
+}
 
 .btn-btn {
   font-weight: 500;
@@ -189,7 +205,6 @@ body {
   background-color: var(--accent-color);
   color: var(--title-white-color);
 }
-
 
 .post-list-title {
   font-size: 18px;
